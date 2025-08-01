@@ -100,8 +100,6 @@ Game Workflow illustrating the complete player journey from game start through l
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - Rishit Menon: Entire Project
