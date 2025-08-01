@@ -45,33 +45,34 @@ Console Testing - Custom debug functions and validation
 Implementation
 ## For Software:
 Installation
-# Clone or download the project
+Clone or download the project
 git clone [repository-url]
 cd useless_auto
 
-# Start local HTTP server (required for VR features)
+Start local HTTP server (required for VR features)
 python -m http.server 8000
 
-# Alternative for Node.js users
+Alternative for Node.js users
 npx http-server -p 8000
 
-# Alternative for PHP users
+Alternative for PHP users
 php -S localhost:8000
 
 
 # Run
-# Open your browser and navigate to:
+Open your browser and navigate to:
 http://localhost:8000
 
-# For testing specific features:
+For testing specific features:
 http://localhost:8000/test.html          # Feature overview
 http://localhost:8000/tutorial-test.html # Tutorial system testing
 http://localhost:8000/immediate-test.html # Debug pricing issues
 
-# VR Mode:
-# 1. Connect VR headset (Oculus, HTC Vive, etc.)
-# 2. Click "Enter VR" button in browser
-# 3. Use hand controllers or gaze+click interaction
+VR Mode:
+ 1. Connect VR headset (Oculus, HTC Vive, etc.)
+ 2. Click "Enter VR" button in browser
+ 3. Use hand controllers or gaze+click interaction
+
 ### Project Documentation
 For Software:
 
@@ -89,6 +90,7 @@ For Software:
 <img width="410" height="876" alt="image" src="https://github.com/user-attachments/assets/9451e320-c88b-4053-8efe-2738ac69aefd" />
 <img width="748" height="818" alt="image" src="https://github.com/user-attachments/assets/aa73f9f9-ce05-4800-aaf7-74ce13f83728" />
 <img width="661" height="832" alt="image" src="https://github.com/user-attachments/assets/5511ce34-8c0d-4585-88dd-b5d841c0981d" />
+
 System Architecture showing the modular design with frontend VR layer, core game logic, AI intelligence systems, feature modules, external API integrations, and data persistence layer.
 AI Decision Flow demonstrating how player input is analyzed, processed through multiple AI layers, and converted into contextual driver responses with personality and cultural awareness.
 Game Workflow illustrating the complete player journey from game start through location selection, negotiation rounds, AI processing, and final scoring with achievement tracking.
