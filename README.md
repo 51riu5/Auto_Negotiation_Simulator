@@ -86,63 +86,12 @@ For Software:
 *Add caption explaining what this shows*
 
 # Diagrams
-graph TD
-    A["🎮 Game Start"] --> B["📍 Location Selection"]
-    B --> C["🎯 Initialize Pricing"]
-    C --> D["🚀 Start Negotiation"]
-    
-    D --> E["👤 Player Input"]
-    E --> F{"🤖 AI Available?"}
-    
-    F -->|Yes| G["🧠 OpenAI/Claude API"]
-    F -->|No| H["🎭 Advanced Driver AI"]
-    
-    G --> I["📝 AI Response"]
-    H --> I
-    
-    I --> J["🎪 Advanced Driver Processing"]
-    J --> K["💰 Price Adjustment"]
-    J --> L["😊 Mood Calculation"]
-    J --> M["🎯 Strategy Adaptation"]
-    
-    K --> N{"🏁 End Game?"}
-    L --> N
-    M --> N
-    
-    N -->|No| O["📊 Update UI"]
-    N -->|Yes| P["🏆 Calculate Score"]
-    
-    O --> E
-    P --> Q["🎉 Show Results"]
-    Q --> R["💾 Save Progress"]
-    R --> S["🏅 Update Achievements"]
-    S --> T["📈 Update Leaderboard"]
-    
-    style A fill:#e1f5fe
-    style D fill:#f3e5f5
-    style G fill:#fff3e0
-    style H fill:#e8f5e8
-    style P fill:#fff8e1
-    style T fill:#fce4ec*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+<img width="410" height="876" alt="image" src="https://github.com/user-attachments/assets/9451e320-c88b-4053-8efe-2738ac69aefd" />
+<img width="748" height="818" alt="image" src="https://github.com/user-attachments/assets/aa73f9f9-ce05-4800-aaf7-74ce13f83728" />
+<img width="661" height="832" alt="image" src="https://github.com/user-attachments/assets/5511ce34-8c0d-4585-88dd-b5d841c0981d" />
+System Architecture showing the modular design with frontend VR layer, core game logic, AI intelligence systems, feature modules, external API integrations, and data persistence layer.
+AI Decision Flow demonstrating how player input is analyzed, processed through multiple AI layers, and converted into contextual driver responses with personality and cultural awareness.
+Game Workflow illustrating the complete player journey from game start through location selection, negotiation rounds, AI processing, and final scoring with achievement tracking.
 
 ### Project Demo
 # Video
@@ -153,9 +102,8 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Rishit Menon: Entire Project
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
