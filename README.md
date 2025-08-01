@@ -1,266 +1,113 @@
-# 🛺 Auto-Rickshaw Negotiation Simulator
+@@ -1,115 +1,266 @@
+<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
-A hilarious and educational VR experience where you practice haggling with auto drivers in various Kerala locations. Master the art of fare negotiation from "Kochi Airport" (Nightmare Mode) to "Local Uncle Who Knows Your Family" (Easy Mode)!
 
-## 🎮 Game Features
+# Auto Negotiation Simulator 🎯
 
-### 🏞️ Authentic Kerala Locations
-- **🛫 Kochi Airport** - Nightmare Mode: Tourist trap central with premium pricing
-- **🚂 Ernakulam Railway Station** - Hard Mode: Experienced drivers with all the tricks
-- **🏪 Broadway Market** - Medium Mode: Local market where negotiation is expected
-- **🏘️ Residential Area** - Easy Mode: Reasonable neighborhood drivers
-- **👨‍🦳 Local Uncle's Auto** - Tutorial Mode: Uncle Ravi knows your family (but still negotiates!)
 
-### 🎯 Core Gameplay
-- **🤖 AI-Powered Conversations** - Type naturally and get intelligent, contextual responses (OpenAI/Ollama supported)
-- **🏛️ Cultural Authenticity** - Malayalam phrases, local customs, and genuine Kerala experience
-- **💬 Natural Text Input** - No more button clicking - have real conversations with drivers
-- **🧠 Smart Analysis** - AI analyzes your politeness, cultural awareness, and negotiation strategy
-- **💰 Dynamic Pricing** - Prices adjust based on your conversation skills and cultural sensitivity
-- **📊 Advanced Scoring** - Earn points for savings, cultural points, efficiency, and driver happiness
+## Basic Details
+### Team Name: Avial
 
-### 🥽 VR Experience
-- **WebVR Compatible** - Works with Oculus Quest, Rift, HTC Vive, and mobile VR
-- **3D Auto-Rickshaw** - Detailed vehicle with animated driver
-- **Immersive Environments** - Different Kerala settings with day/night cycles
-- **Desktop Fallback** - Full experience available without VR headset
 
-### 🏛️ Cultural Learning
-- **Malayalam Integration** - Learn basic negotiation phrases
-- **Local Customs** - Understand Kerala hospitality and business culture
-- **Insider Tips** - Real-world advice for auto negotiations
-- **Respectful Approach** - Emphasizes mutual respect and fair dealing
+### Team Members
+- Team Lead: Rishit Menon - TKM College of Engineering
 
-## 🚀 Quick Start
+### Project Description
+Auto-Rickshaw Negotiation Simulator is a hilarious experience where you practice the fine art of haggling with Kerala auto drivers. Conquer negotiation challenges in iconic Kochi and Kerala locations, from the dreaded "Airport Mode" to the friendly "Local Uncle Mode."
 
-### Prerequisites
-- Modern web browser with WebGL support
-- VR headset (optional - works on desktop/mobile too)
-- Python 3.x or Node.js (for local server)
+### The Problem (that doesn't exist)
+You're absolutely hopeless at bargaining with auto drivers—especially in unpredictable Kerala traffic, where every meter is an adventure and every fare is a fresh battle for your wallet and pride.
 
-### Installation & Setup
+### The Solution (that nobody asked for)
+A virtual rickshaw ride with AI-powered, personality-packed, and stubborn auto drivers. Master your negotiation tactics—try everything from pleading in pure Malayalam to hinting that your grandfather built this city, without ever stepping outside. Achieve legendary bargaining status, and unlock secret dialogue trees like "Super Angry Driver" and "Sympathetic Onlooker Auntie."
 
-1. **Clone or Download** the project files to your computer
+## Technical Details
+## Technologies/Components Used
+## For Software:
+## Languages Used:
+HTML5 - Structure and VR scene definition using A-Frame
+CSS3 - Styling, animations, and responsive design with Flexbox/Grid
+JavaScript (ES6+) - Game logic, AI integration, and interactive features
+Mermaid - Architecture diagrams and workflow visualization
+## Frameworks Used:
+A-Frame 1.4.0 - WebVR framework for immersive 3D environments
+WebVR/WebXR APIs - Native browser VR support
+Web Speech API - Voice recognition and synthesis
+## Libraries Used:
+OpenAI API - GPT-4o-mini & GPT-3.5-turbo for dynamic AI responses
+Anthropic Claude - Alternative AI provider for enhanced conversations
+Ollama - Local AI model support for offline functionality
+Local Storage API - Data persistence for achievements and leaderboards
+## Tools Used:
+Browser Dev Tools - Debugging and performance optimization
+Git - Version control and project management
+HTTP Server - Local development and testing environment
+Console Testing - Custom debug functions and validation
+Implementation
+## For Software:
+Installation
+Clone or download the project
+git clone [repository-url]
+cd useless_auto
 
-2. **Start a Local Server** (required for VR features):
+Start local HTTP server (required for VR features)
+python -m http.server 8000
 
-   **Option A: Using Python**
-   ```bash
-   # Navigate to project directory
-   cd auto-rickshaw-negotiation-simulator
-   
-   # Start server
-   python -m http.server 8000
-   ```
+Alternative for Node.js users
+npx http-server -p 8000
 
-   **Option B: Using Node.js**
-   ```bash
-   # Install dependencies
-   npm install
-   
-   # Start development server
-   npm run dev
-   ```
+Alternative for PHP users
+php -S localhost:8000
 
-   **Option C: Using npx (no installation)**
-   ```bash
-   npx serve .
-   ```
 
-3. **Open in Browser**
-   - Go to `http://localhost:8000` (or the port shown in terminal)
-   - Allow VR permissions if prompted
-   - Configure AI service (see below)
-   - Enjoy haggling!
+# Run
+Open your browser and navigate to:
+http://localhost:8000
 
-## 🤖 AI Configuration (Enhanced Experience)
+For testing specific features:
+http://localhost:8000/test.html          # Feature overview
+http://localhost:8000/tutorial-test.html # Tutorial system testing
+http://localhost:8000/immediate-test.html # Debug pricing issues
 
-For the **best experience**, configure an AI service for dynamic conversations:
+VR Mode:
+ 1. Connect VR headset (Oculus, HTC Vive, etc.)
+ 2. Click "Enter VR" button in browser
+ 3. Use hand controllers or gaze+click interaction
 
-### 🎯 Recommended: OpenAI
-1. Get an API key from [OpenAI Platform](https://platform.openai.com/api-keys) (~$0.002 per game)
-2. Enter your key when prompted in the app
-3. Enjoy natural, intelligent conversations!
+### Project Documentation
+For Software:
 
-### 🏠 Free Alternative: Local Ollama
-1. Install [Ollama](https://ollama.ai/) and run `ollama pull llama2`
-2. Start with `ollama serve`
-3. Select "Local Ollama" in app
+# Screenshots (Add at least 3)
+![Screenshot1](Add screenshot 1 here with proper name)
+*Add caption explaining what this shows*
 
-### 🔄 No Setup: Fallback Mode
-- Uses pre-written responses (still fun!)
-- No API keys needed
-- Works offline
+![Screenshot2](Add screenshot 2 here with proper name)
+*Add caption explaining what this shows*
 
-**📖 Full AI Setup Guide**: See [AI_SETUP.md](AI_SETUP.md) for detailed instructions.
+![Screenshot3](Add screenshot 3 here with proper name)
+*Add caption explaining what this shows*
 
-## 🎮 How to Play
+# Diagrams
+<img width="410" height="876" alt="image" src="https://github.com/user-attachments/assets/9451e320-c88b-4053-8efe-2738ac69aefd" />
+<img width="748" height="818" alt="image" src="https://github.com/user-attachments/assets/aa73f9f9-ce05-4800-aaf7-74ce13f83728" />
+<img width="661" height="832" alt="image" src="https://github.com/user-attachments/assets/5511ce34-8c0d-4585-88dd-b5d841c0981d" />
 
-### 🎯 Objective
-Negotiate the best possible fare while maintaining respect and cultural sensitivity. Your score depends on:
-- **Money Saved** - How much you reduce from the initial price
-- **Cultural Points** - Using Malayalam phrases and showing cultural awareness
-- **Efficiency** - Reaching a deal in fewer rounds
-- **Driver Mood** - Keeping the driver happy or at least neutral
+System Architecture showing the modular design with frontend VR layer, core game logic, AI intelligence systems, feature modules, external API integrations, and data persistence layer.
+AI Decision Flow demonstrating how player input is analyzed, processed through multiple AI layers, and converted into contextual driver responses with personality and cultural awareness.
+Game Workflow illustrating the complete player journey from game start through location selection, negotiation rounds, AI processing, and final scoring with achievement tracking.
 
-### 🎪 Game Flow
-1. **Choose Location** - Select your challenge level
-2. **Configure AI** - Set up OpenAI, Ollama, or use fallback mode
-3. **Enter VR** - Put on headset or play on desktop
-4. **Listen to Driver** - Each has unique personality and pricing
-5. **Type Response** - Have natural conversations in text
-6. **Watch AI React** - Driver mood and price change based on your conversation
-7. **Reach Agreement** - Negotiate until you find a fair deal
-8. **Get Scored** - Receive detailed feedback and tips
+### Project Demo
+# Video
+[Add your demo video link here]
+*Explain what the video demonstrates*
 
-### 🎯 Winning Strategies
 
-**🙏 Polite Approach**
-- Use respectful language and Malayalam phrases
-- Build rapport before discussing price
-- Works well with patient, friendly drivers
+## Team Contributions
+- Rishit Menon: Entire Project
 
-**💪 Assertive Method**
-- Know your local rates and stand firm
-- Reference meter rates and official charts
-- Effective with stubborn but reasonable drivers
-
-**🏛️ Cultural Connection**
-- Mention local family or connections
-- Use Kerala cultural references
-- Especially powerful with "Uncle" character
-
-**🚶 Walking Away**
-- Sometimes the best negotiation tool
-- Effective late in negotiation
-- High risk, high reward strategy
-
-### 📱 Controls
-- **Text Input**: Type your responses naturally in the chat box
-- **Suggestion Chips**: Click quick-response buttons for common phrases
-- **VR Mode**: Use controllers or gaze cursor for UI interaction
-- **Desktop**: Keyboard and mouse for typing and navigation
-- **Mobile**: Touch keyboard for text input and touch interface
-
-## 🏗️ Technical Details
-
-### 🛠️ Built With
-- **A-Frame** - WebVR framework for 3D/VR experiences
-- **Vanilla JavaScript** - No frameworks, pure JS for maximum compatibility
-- **CSS3** - Modern styling with animations and responsive design
-- **HTML5** - Semantic markup and web standards
-
-### 📂 Project Structure
-```
-auto-rickshaw-negotiation-simulator/
-├── index.html              # Main VR application
-├── css/
-│   └── style.css           # UI styling and animations
-├── js/
-│   ├── game.js             # Core game logic and AI
-│   ├── locations.js        # Kerala locations and difficulty settings
-│   └── phrases.js          # Malayalam phrases and cultural context
-├── package.json            # Dependencies and scripts
-└── README.md              # This file
-```
-
-### 🌐 Browser Compatibility
-- **Chrome/Edge** - Full VR support
-- **Firefox** - WebVR enabled by default
-- **Safari** - Limited VR, full desktop experience
-- **Mobile Browsers** - Works with device orientation
-
-## 🎓 Educational Value
-
-### 🏛️ What You'll Learn
-- **Kerala Culture** - Local customs, hospitality, and business practices
-- **Malayalam Basics** - Essential phrases for auto negotiations
-- **Negotiation Skills** - Real-world bargaining techniques
-- **Cultural Sensitivity** - Respectful interaction with service providers
-- **Local Economics** - Understanding fair pricing and driver perspectives
-
-### 🎯 Learning Outcomes
-- Improved negotiation confidence in real Kerala auto rides
-- Better cultural understanding and sensitivity
-- Basic Malayalam vocabulary for travel
-- Appreciation for auto driver challenges and perspectives
-
-## 🛺 Character Profiles
-
-### 😠 Airport Driver (Nightmare Mode)
-- **Personality**: Impatient, money-focused, tourist-wary
-- **Strategy**: Overcharge tourists, use excuses for premium pricing
-- **Weakness**: Walking away, official rate references
-- **Challenge**: Extremely stubborn, low cultural sensitivity
-
-### 🚂 Railway Station Driver (Hard Mode)
-- **Personality**: Experienced, professional, slightly greedy
-- **Strategy**: Standard overcharging with logical explanations
-- **Weakness**: Local knowledge, practical comparisons
-- **Challenge**: Knows most tricks, harder to fool
-
-### 🏪 Market Driver (Medium Mode)
-- **Personality**: Friendly but business-minded
-- **Strategy**: Moderate overcharging, open to negotiation
-- **Weakness**: Regular customer approach, cultural connections
-- **Challenge**: Balanced difficulty, good for learning
-
-### 🏘️ Residential Driver (Easy Mode)
-- **Personality**: Local-friendly, reasonable, patient
-- **Strategy**: Fair pricing with minor markup
-- **Weakness**: Politeness, local references
-- **Challenge**: Good for beginners, teaches basics
-
-### 👨‍🦳 Uncle Ravi (Tutorial Mode)
-- **Personality**: Family-oriented, teaching, humorous
-- **Strategy**: Gentle negotiation with cultural lessons
-- **Weakness**: Family connections, respectful approach
-- **Special**: Gives advice, teaches Malayalam, cultural tips
-
-## 🎨 Customization & Modding
-
-The game is built with modular JavaScript, making it easy to:
-- Add new locations and difficulty levels
-- Include more Malayalam phrases and cultural contexts
-- Modify driver personalities and behaviors
-- Adjust pricing algorithms and negotiation mechanics
-- Add seasonal events or special scenarios
-
-## 🤝 Contributing
-
-We welcome contributions to make this experience more authentic and educational!
-
-### 💡 Ways to Contribute
-- **Cultural Accuracy**: Improve Malayalam translations and cultural details
-- **New Locations**: Add more Kerala destinations with unique characteristics
-- **Driver Personalities**: Create more diverse and realistic character types
-- **Negotiation Strategies**: Add advanced tactics and responses
-- **VR Enhancements**: Improve 3D models, environments, and interactions
-
-### 🐛 Bug Reports
-If you find issues or have suggestions, please:
-1. Check existing issues first
-2. Provide detailed reproduction steps
-3. Include browser/device information
-4. Suggest potential solutions if possible
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- **Kerala Auto Drivers** - For inspiration and authentic experiences
-- **Malayalam Community** - For language guidance and cultural insights
-- **A-Frame Community** - For the amazing WebVR framework
-- **Kerala Tourism** - For promoting "God's Own Country"
-
-## 🎮 Play Now!
-
-Ready to test your haggling skills? Start the server and dive into the wonderful world of Kerala auto-rickshaw negotiations!
-
-**Remember**: The goal isn't just to save money, but to do so respectfully while learning about Kerala's rich culture. Happy negotiating! 🛺✨
 
 ---
+Made with ❤️ at TinkerHub Useless Projects 
 
-*"In Kerala, every auto ride is an adventure, and every negotiation is a cultural exchange!"* 
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
