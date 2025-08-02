@@ -1,4 +1,4 @@
-@echo off
+5@echo off
 REM Quick GitHub Pages Deployment for Auto-Rickshaw VR Simulator
 
 echo.
