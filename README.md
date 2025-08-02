@@ -81,11 +81,21 @@ For Software:
 
 *Conversation between user and auto driver in hardest settings.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2]<img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/b139e6bc-cdb1-40d9-9873-e92cee1d9390" />
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+*Landing Page*
+
+![Screenshot3]<img width="1918" height="872" alt="image" src="https://github.com/user-attachments/assets/837dc741-631d-4c00-84f7-f08c36ed6114" />
+
+*Difficulty Selection*
+
+![Screenshot4]<img width="1918" height="863" alt="image" src="https://github.com/user-attachments/assets/77f96cd0-fe9c-464e-a61d-313f1f7bc30b" />
+
+*Bargaining* 
+
+![Screenshot5]<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d983ca90-c17b-4f60-a92d-6039a708fe68" />
+
+*VR View*
 
 # Diagrams
 <img width="410" height="876" alt="image" src="https://github.com/user-attachments/assets/9451e320-c88b-4053-8efe-2738ac69aefd" />
@@ -98,8 +108,9 @@ Game Workflow illustrating the complete player journey from game start through l
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1decc3DpYsWGgEenn6_4V5bP_i3EA-qvv/view?usp=sharing
+
+*The video shows ui/ux and shows a flow of a user who just logged in and started their bargaining journey either in VR or through text.*
 
 
 ## Team Contributions
@@ -111,5 +122,6 @@ Made with ❤️ at TinkerHub Useless Projects
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+
 
 
