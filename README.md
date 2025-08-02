@@ -15,10 +15,10 @@
 Auto-Rickshaw Negotiation Simulator is a hilarious experience where you practice the fine art of haggling with Kerala auto drivers. Conquer negotiation challenges in iconic Kochi and Kerala locations, from the dreaded "Airport Mode" to the friendly "Local Uncle Mode."
 
 ### The Problem (that doesn't exist)
-You're absolutely hopeless at bargaining with auto drivers—especially in unpredictable Kerala traffic, where every meter is an adventure and every fare is a fresh battle for your wallet and pride.
+You're absolutely hopeless at bargaining with auto drivers, especially in unpredictable Kerala traffic, where every meter is an adventure and every fare is a fresh battle for your wallet and pride.
 
 ### The Solution (that nobody asked for)
-A virtual rickshaw ride with AI-powered, personality-packed, and stubborn auto drivers. Master your negotiation tactics—try everything from pleading in pure Malayalam to hinting that your grandfather built this city, without ever stepping outside. Achieve legendary bargaining status, and unlock secret dialogue trees like "Super Angry Driver" and "Sympathetic Onlooker Auntie."
+A virtual rickshaw ride with AI-powered, personality-packed, and stubborn auto drivers. Master your negotiation tactics, try everything from pleading in pure Malayalam to hinting that your grandfather built this city, without ever stepping outside. Achieve legendary bargaining status, and unlock secret dialogue trees like "Super Angry Driver" and "Sympathetic Onlooker Auntie."
 
 ## Technical Details
 ## Technologies/Components Used
@@ -122,6 +122,7 @@ Made with ❤️ at TinkerHub Useless Projects
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
+
 
 
 
